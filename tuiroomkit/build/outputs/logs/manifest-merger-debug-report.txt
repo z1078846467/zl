@@ -1,0 +1,262 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:2:1-130:12
+	package
+		INJECTED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:5:5-60
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:5:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:6:19-67
+uses-permission#android.permission.INTERNET
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.CAMERA
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:10:22-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:11:22-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:13:5-92
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:13:22-89
+uses-permission#android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:14:5-93
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:14:22-91
+uses-permission#android.permission.FOREGROUND_SERVICE_MICROPHONE
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:15:5-87
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:15:22-85
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:16:22-74
+application
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:18:5-128:19
+activity#com.tencent.cloud.tuikit.roomkit.ConferenceMainActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:20:9-26:35
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:23:13-44
+	android:supportsPictureInPicture
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:24:13-52
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:22:13-91
+	tools:targetApi
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:26:13-32
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:21:13-83
+activity#com.tencent.cloud.tuikit.roomkit.view.create.CreateConferenceActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:28:9-32:66
+	android:screenOrientation
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:31:13-49
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:30:13-44
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:29:13-97
+activity#com.tencent.cloud.tuikit.roomkit.view.join.EnterConferenceActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:34:9-39:66
+	android:screenOrientation
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:37:13-49
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:36:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:38:13-55
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:39:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:35:13-94
+activity#com.tencent.cloud.tuikit.roomkit.view.schedule.conferencedetails.ScheduledConferenceDetailActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:41:9-46:66
+	android:screenOrientation
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:44:13-49
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:43:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:45:13-55
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:46:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:42:13-126
+activity#com.tencent.cloud.tuikit.roomkit.view.schedule.modifyconference.ModifyConferenceActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:48:9-53:66
+	android:screenOrientation
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:51:13-49
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:50:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:52:13-55
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:53:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:49:13-116
+activity#com.tencent.cloud.tuikit.roomkit.ScheduleConferenceActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:55:9-60:66
+	android:screenOrientation
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:58:13-49
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:57:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:59:13-55
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:60:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:56:13-87
+activity#com.tencent.cloud.tuikit.roomkit.view.schedule.timezone.TimeZoneActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:62:9-67:66
+	android:screenOrientation
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:65:13-49
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:64:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:66:13-55
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:67:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:63:13-100
+activity#com.tencent.cloud.tuikit.roomkit.view.main.RoomMainActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:69:9-75:35
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:72:13-44
+	android:supportsPictureInPicture
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:73:13-52
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:71:13-91
+	tools:targetApi
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:75:13-32
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:74:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:70:13-87
+activity#com.tencent.cloud.tuikit.roomkit.view.main.conferenceinvitation.InvitationReceivedActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:77:9-81:66
+	android:screenOrientation
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:80:13-49
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:79:13-44
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:81:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:78:13-118
+activity#com.tencent.cloud.tuikit.roomkit.view.main.chat.ChatActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:82:9-87:65
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:85:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:86:13-65
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:84:13-59
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:87:13-62
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:83:13-88
+activity#com.tencent.cloud.tuikit.roomkit.view.bridge.chat.view.InviteToJoinRoomActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:89:9-93:65
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:92:13-44
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:91:13-59
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:93:13-62
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:90:13-107
+activity#com.tencent.cloud.tuikit.roomkit.view.bridge.chat.view.InvitedToJoinRoomActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:94:9-98:66
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:97:13-44
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:96:13-59
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:98:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:95:13-108
+activity#com.tencent.cloud.tuikit.roomkit.view.bridge.chat.view.Chat2RoomExtensionSettingsActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:99:9-103:66
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:102:13-44
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:101:13-59
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:103:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:100:13-117
+activity#com.tencent.cloud.tuikit.roomkit.view.main.speechtotext.SpeechToTextActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:104:9-108:66
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:107:13-44
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:106:13-59
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:108:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:105:13-104
+activity#com.tencent.cloud.tuikit.roomkit.view.main.contacts.DefaultContactsActivity
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:109:9-113:66
+	android:launchMode
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:112:13-44
+	android:configChanges
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:111:13-59
+	android:theme
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:113:13-63
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:110:13-103
+service#com.tencent.cloud.tuikit.roomkit.common.utils.KeepAliveService
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:114:9-118:61
+	android:enabled
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:116:13-35
+	android:exported
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:117:13-37
+	android:foregroundServiceType
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:118:13-58
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:115:13-90
+service#com.tencent.cloud.tuikit.roomkit.view.main.floatwindow.videoplaying.RoomFloatViewService
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:119:9-122:40
+	android:enabled
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:121:13-35
+	android:exported
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:120:13-116
+provider#com.tencent.cloud.tuikit.roomkit.state.ConferenceServiceInitializer
+ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:123:9-127:40
+	android:enabled
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:126:13-35
+	android:authorities
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:125:13-64
+	android:exported
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:124:13-95
+uses-sdk
+INJECTED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml
+INJECTED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml

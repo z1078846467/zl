@@ -1,0 +1,247 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.tencent.cloud.tuikit.roomkit" >
+5
+6    <uses-sdk android:minSdkVersion="19" />
+7
+8    <uses-feature android:name="android.hardware.camera" />
+8-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:5:5-60
+8-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:5:19-57
+9    <uses-feature android:name="android.hardware.camera.autofocus" />
+9-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:6:5-70
+9-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:6:19-67
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:8:5-67
+11-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:9:5-71
+12-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:9:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:10:5-65
+13-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:10:22-62
+14    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+14-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:11:5-78
+14-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:11:22-75
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:12:5-77
+15-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:12:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+16-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:13:5-92
+16-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:13:22-89
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+17-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:14:5-93
+17-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:14:22-91
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+18-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:15:5-87
+18-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:15:22-85
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:16:5-76
+19-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:16:22-74
+20
+21    <application>
+21-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:18:5-128:19
+22        <activity
+22-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:20:9-26:35
+23            android:name="com.tencent.cloud.tuikit.roomkit.ConferenceMainActivity"
+23-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:21:13-83
+24            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+24-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:22:13-91
+25            android:launchMode="singleTask"
+25-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:23:13-44
+26            android:supportsPictureInPicture="true"
+26-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:24:13-52
+27            android:theme="@style/Theme.AppCompat.NoActionBar"
+27-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:25:13-63
+28            tools:targetApi="n" />
+28-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:26:13-32
+29        <activity
+29-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:28:9-32:66
+30            android:name="com.tencent.cloud.tuikit.roomkit.view.create.CreateConferenceActivity"
+30-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:29:13-97
+31            android:launchMode="singleTask"
+31-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:30:13-44
+32            android:screenOrientation="portrait"
+32-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:31:13-49
+33            android:theme="@style/Theme.AppCompat.NoActionBar" />
+33-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:32:13-63
+34        <activity
+34-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:34:9-39:66
+35            android:name="com.tencent.cloud.tuikit.roomkit.view.join.EnterConferenceActivity"
+35-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:35:13-94
+36            android:launchMode="singleTask"
+36-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:36:13-44
+37            android:screenOrientation="portrait"
+37-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:37:13-49
+38            android:theme="@style/Theme.AppCompat.NoActionBar"
+38-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:39:13-63
+39            android:windowSoftInputMode="adjustResize" />
+39-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:38:13-55
+40        <activity
+40-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:41:9-46:66
+41            android:name="com.tencent.cloud.tuikit.roomkit.view.schedule.conferencedetails.ScheduledConferenceDetailActivity"
+41-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:42:13-126
+42            android:launchMode="singleTask"
+42-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:43:13-44
+43            android:screenOrientation="portrait"
+43-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:44:13-49
+44            android:theme="@style/Theme.AppCompat.NoActionBar"
+44-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:46:13-63
+45            android:windowSoftInputMode="adjustResize" />
+45-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:45:13-55
+46        <activity
+46-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:48:9-53:66
+47            android:name="com.tencent.cloud.tuikit.roomkit.view.schedule.modifyconference.ModifyConferenceActivity"
+47-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:49:13-116
+48            android:launchMode="singleTask"
+48-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:50:13-44
+49            android:screenOrientation="portrait"
+49-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:51:13-49
+50            android:theme="@style/Theme.AppCompat.NoActionBar"
+50-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:53:13-63
+51            android:windowSoftInputMode="adjustResize" />
+51-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:52:13-55
+52        <activity
+52-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:55:9-60:66
+53            android:name="com.tencent.cloud.tuikit.roomkit.ScheduleConferenceActivity"
+53-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:56:13-87
+54            android:launchMode="singleTask"
+54-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:57:13-44
+55            android:screenOrientation="portrait"
+55-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:58:13-49
+56            android:theme="@style/Theme.AppCompat.NoActionBar"
+56-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:60:13-63
+57            android:windowSoftInputMode="adjustResize" />
+57-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:59:13-55
+58        <activity
+58-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:62:9-67:66
+59            android:name="com.tencent.cloud.tuikit.roomkit.view.schedule.timezone.TimeZoneActivity"
+59-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:63:13-100
+60            android:launchMode="singleTask"
+60-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:64:13-44
+61            android:screenOrientation="portrait"
+61-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:65:13-49
+62            android:theme="@style/Theme.AppCompat.NoActionBar"
+62-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:67:13-63
+63            android:windowSoftInputMode="adjustResize" />
+63-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:66:13-55
+64        <activity
+64-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:69:9-75:35
+65            android:name="com.tencent.cloud.tuikit.roomkit.view.main.RoomMainActivity"
+65-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:70:13-87
+66            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+66-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:71:13-91
+67            android:launchMode="singleTask"
+67-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:72:13-44
+68            android:supportsPictureInPicture="true"
+68-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:73:13-52
+69            android:theme="@style/Theme.AppCompat.NoActionBar"
+69-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:74:13-63
+70            tools:targetApi="n" />
+70-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:75:13-32
+71        <activity
+71-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:77:9-81:66
+72            android:name="com.tencent.cloud.tuikit.roomkit.view.main.conferenceinvitation.InvitationReceivedActivity"
+72-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:78:13-118
+73            android:launchMode="singleTask"
+73-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:79:13-44
+74            android:screenOrientation="portrait"
+74-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:80:13-49
+75            android:theme="@style/Theme.AppCompat.NoActionBar" />
+75-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:81:13-63
+76        <activity
+76-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:82:9-87:65
+77            android:name="com.tencent.cloud.tuikit.roomkit.view.main.chat.ChatActivity"
+77-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:83:13-88
+78            android:configChanges="orientation|screenSize"
+78-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:84:13-59
+79            android:launchMode="singleTask"
+79-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:85:13-44
+80            android:theme="@style/TUIRoomActivityTransparent"
+80-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:87:13-62
+81            android:windowSoftInputMode="adjustResize|adjustPan" />
+81-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:86:13-65
+82        <activity
+82-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:89:9-93:65
+83            android:name="com.tencent.cloud.tuikit.roomkit.view.bridge.chat.view.InviteToJoinRoomActivity"
+83-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:90:13-107
+84            android:configChanges="orientation|screenSize"
+84-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:91:13-59
+85            android:launchMode="singleTask"
+85-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:92:13-44
+86            android:theme="@style/TUIRoomActivityTransparent" />
+86-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:93:13-62
+87        <activity
+87-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:94:9-98:66
+88            android:name="com.tencent.cloud.tuikit.roomkit.view.bridge.chat.view.InvitedToJoinRoomActivity"
+88-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:95:13-108
+89            android:configChanges="orientation|screenSize"
+89-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:96:13-59
+90            android:launchMode="singleTask"
+90-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:97:13-44
+91            android:theme="@style/Theme.AppCompat.NoActionBar" />
+91-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:98:13-63
+92        <activity
+92-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:99:9-103:66
+93            android:name="com.tencent.cloud.tuikit.roomkit.view.bridge.chat.view.Chat2RoomExtensionSettingsActivity"
+93-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:100:13-117
+94            android:configChanges="orientation|screenSize"
+94-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:101:13-59
+95            android:launchMode="singleTask"
+95-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:102:13-44
+96            android:theme="@style/Theme.AppCompat.NoActionBar" />
+96-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:103:13-63
+97        <activity
+97-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:104:9-108:66
+98            android:name="com.tencent.cloud.tuikit.roomkit.view.main.speechtotext.SpeechToTextActivity"
+98-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:105:13-104
+99            android:configChanges="orientation|screenSize"
+99-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:106:13-59
+100            android:launchMode="singleTask"
+100-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:107:13-44
+101            android:theme="@style/Theme.AppCompat.NoActionBar" />
+101-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:108:13-63
+102        <activity
+102-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:109:9-113:66
+103            android:name="com.tencent.cloud.tuikit.roomkit.view.main.contacts.DefaultContactsActivity"
+103-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:110:13-103
+104            android:configChanges="orientation|screenSize"
+104-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:111:13-59
+105            android:launchMode="singleTask"
+105-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:112:13-44
+106            android:theme="@style/Theme.AppCompat.NoActionBar" />
+106-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:113:13-63
+107
+108        <service
+108-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:114:9-118:61
+109            android:name="com.tencent.cloud.tuikit.roomkit.common.utils.KeepAliveService"
+109-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:115:13-90
+110            android:enabled="true"
+110-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:116:13-35
+111            android:exported="false"
+111-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:117:13-37
+112            android:foregroundServiceType="mediaPlayback" />
+112-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:118:13-58
+113        <service
+113-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:119:9-122:40
+114            android:name="com.tencent.cloud.tuikit.roomkit.view.main.floatwindow.videoplaying.RoomFloatViewService"
+114-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:120:13-116
+115            android:enabled="true"
+115-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:121:13-35
+116            android:exported="false" />
+116-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:122:13-37
+117
+118        <provider
+118-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:123:9-127:40
+119            android:name="com.tencent.cloud.tuikit.roomkit.state.ConferenceServiceInitializer"
+119-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:124:13-95
+120            android:authorities="${applicationId}.TUIRoom.Init"
+120-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:125:13-64
+121            android:enabled="true"
+121-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:126:13-35
+122            android:exported="false" />
+122-->D:\Andrio_teacher\tuiroomkit\src\main\AndroidManifest.xml:127:13-37
+123    </application>
+124
+125</manifest>
